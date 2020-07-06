@@ -1,14 +1,5 @@
 <?php
 	include('form_fields.php');
-	function dynamic_Forms($data){
-		//var_dump($data);
-		//$datas = '';
-		//foreach($data as $value){
-			$datas = form_fields($data);
-		//}
-		return $datas;
-	}
-	
 	$options = array();
 	
 	$options[] = array(
